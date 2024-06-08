@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header{
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+    font-family: Permanent Marker;
+    font-size: 1em
+}
+.navbar ul{
+    background-color: hsl(0, 0%, 15%);
+    height: 50px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 5%);
+}
+.navbar li{
+    float: left;
+}
+aside{
+    width: 20%;
+    float: left; 
+    padding: 10px;
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70%
+}
+section{
+    width: 20%;
+    float: left; 
+    padding: 10px;
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70%
+}
+article{
+    width: 20%;
+    float: left; 
+    padding: 10px;
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70%
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%
+    }
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+}
+.gallery{
+    margin: 5px;
+    width: 200px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid hsl(0, 0%, 20%);
+}
+.gallery img{
+    width: 100%
+}
+.gallery img{
+    height: auto;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+main{
+    font-family: Kalam;
+    font-size: 150%
+}
+  
